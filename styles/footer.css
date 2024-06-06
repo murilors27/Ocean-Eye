@@ -1,0 +1,24 @@
+.rodape {
+    background-color: var(--preto);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco);
+    align-items: center;
+    padding: 2rem;
+}
+
+.rodape__esquerda {
+    display: flex;
+    gap: 2rem;   
+}
+
+.rodape__direita {
+    display: flex;
+    gap: 2rem;
+}
+
+.rodape__conteudo:hover {
+    color: var(--cinza);
+    cursor: pointer;
+}
