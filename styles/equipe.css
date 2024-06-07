@@ -15,28 +15,32 @@
 .equipe__main {
     display: flex;
     background-image: url(../assets/fundo-equipe\ \(2\).jpg);
-    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 6rem;
+    gap: 2rem;
 }
 
 .container__cards {
     background-color: var(--branco);
-    margin: 3rem;
+    margin: 1rem;
     padding: 1rem;
-    height: 25rem;
+    height: auto;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
     text-align: center;
+    width: 300px;
+    box-sizing: border-box;
 }
 
 .container__redes {
     display: flex;
-    margin: 3rem;
-    gap: 4rem;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .redes__sociais {
@@ -45,6 +49,9 @@
     background-color: var(--cinza);
     padding: 1rem;
     border-radius: 1rem;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
 }
 
 .redes__sociais:hover {
@@ -57,8 +64,31 @@
     border-radius: 1rem;
 }
 
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--preto);
+    color: var(--branco);
+    flex-wrap: wrap;
+}
+
+.rodape__esquerda,
+.rodape__direita {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
 
 @media screen and (max-width: 768px) {
+    .equipe__cabecalho__titulo {
+        font-size: 2rem;
+    }
+
     .equipe__main {
         flex-direction: column;
         align-items: center;
