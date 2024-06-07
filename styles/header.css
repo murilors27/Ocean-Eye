@@ -13,7 +13,7 @@
 }
 
 .cabecalho__titulo {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--branco);
 }
 
@@ -23,6 +23,7 @@
 }
 
 .cabecalho__navegacao__opcoes {
+    font-size: 2rem;
     text-decoration: none;
     color: var(--branco);
 }
